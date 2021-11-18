@@ -1,7 +1,7 @@
 {
   "name": "Portainer Proxy",
   "version": "1.0.0",
-  "url": "https://github.com/parhedberg/portainer_proxy",
+  "url": "https://github.com/parhedberg/hassio_addons/portainer_proxy",
   "panel_icon": "mdi:face-recognition",
   "slug": "portainer-proxy",
   "description": "Simple proxy for portainerinstallation",
