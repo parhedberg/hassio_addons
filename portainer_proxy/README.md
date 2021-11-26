@@ -4,7 +4,7 @@
 
 Simple nginxproxy for Portainer located att different container.
 
-[Documentation](https://github.com/jakowenko/double-take/tree/beta#readme)
+[Documentation](https://github.com/parhedberg/hassio_addons)
 
 ---
 
