@@ -1,0 +1,20 @@
+{
+  "name": "Portainer Proxy",
+  "version": "1.0.0",
+  "url": "https://github.com/parhedberg/proxmox_proxy",
+  "panel_icon": "mdi:face-recognition",
+  "slug": "proxmox-proxy",
+  "description": "Simple proxy for proxmox",
+  "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],
+  "startup": "application",
+  "boot": "auto",
+  "ingress": true,
+  "ingress_port": 8006,
+  "panel_admin": false,
+  "options": {
+    "server": "portainer.local:9443"
+  },
+  "schema": {
+    "server": "match(^.+:\\d+$)"
+  }
+}
