@@ -9,10 +9,10 @@
   "startup": "application",
   "boot": "auto",
   "ingress": true,
-  "ingress_port": 8006,
+  "ingress_port": 3000,
   "panel_admin": false,
   "options": {
-    "server": "https://proxmox.home.arpa:8006"
+    "server": "proxmox.home.arpa:8006"
   },
   "schema": {
     "server": "match(^.+:\\d+$)"
