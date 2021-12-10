@@ -1,0 +1,20 @@
+{
+  "name": "Unifi Proxy",
+  "version": "1.0.0",
+  "url": "https://github.com/parhedberg/hassio_addons/unifi_proxy",
+  "panel_icon": "mdi:unifi",
+  "slug": "unifi-proxy",
+  "description": "Simple proxy for unifi installation",
+  "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],
+  "startup": "application",
+  "boot": "auto",
+  "ingress": true,
+  "ingress_port": 8443,
+  "panel_admin": false,
+  "options": {
+    "server": "homeassistant.home.arpa:8443"
+  },
+  "schema": {
+    "server": "match(^.+:\\d+$)"
+  }
+}
