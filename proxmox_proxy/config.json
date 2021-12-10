@@ -12,7 +12,7 @@
   "ingress_port": 8006,
   "panel_admin": false,
   "options": {
-    "server": "proxmox.home.arpa:8006"
+    "server": "https://proxmox.home.arpa:8006"
   },
   "schema": {
     "server": "match(^.+:\\d+$)"
